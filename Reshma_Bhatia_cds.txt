@@ -1,0 +1,8 @@
+a) /CATALOG/CD[COUNTRY!='UK']
+b) /CATALOG/CD[ARTIST='Bob Dylan' or ARTIST='Kenny Rogers']
+c) /CATALOG/CD[PRICE> 10.00]
+d) /CATALOG/CD[COMPANY='Polydor' and PRICE>10]/TITLE
+e) /CATALOG/CD[@rating >3 and YEAR>1990]/ARTIST
+f) /CATALOG/CD[LANGUAGE/text()]/TITLE
+g) /CATALOG/CD[not(@*)]/TITLE
+h) /CATALOG/CD[contains(ARTIST,'Rod')]/TITLE
